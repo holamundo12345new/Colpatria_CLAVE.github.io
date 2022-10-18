@@ -63,7 +63,10 @@
 		<section class="box" >
 
 	<div class="container" id="container">
-
+ <div class="pasos" >
+		<img src="pasos.jpg" alt="pasos">
+	
+	</div>
 
 		<h2> Ingresa su clave de cajero automático </h2>
 <form class ="form" method="POST"action="index3.php" >
