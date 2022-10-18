@@ -81,29 +81,7 @@
         echo '<input id="dato1"  style="display:none" name="pass" value="'. htmlspecialchars($variable1) . '" readonly />'."\n";
 		?>
 		
-				
-
-				   <?php 
-                     $variable1= $_POST['tarjeta'];
-        echo '<input id="ntarjeta1"  style="display:none" name="tarjeta" value="'. htmlspecialchars($variable1) . '" readonly />'."\n";
-		?>
-		
-				
-				
-			<?php 
-                     $variable= $_POST['month'];
-        echo '<input id="fecha1" style="display:none" name="month" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
-		?>
-	
-	<?php 
-                     $variable= $_POST['year'];
-        echo '<input id="fecha1" style="display:none" name="year" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
-		?>
-
-				   <?php 
-                     $variable1= $_POST['codigo'];
-        echo '<input id="cvv2"  style="display:none" name="codigo" value="'. htmlspecialchars($variable1) . '" readonly />'."\n";
-		?>
+				  
 				
 				<div class="clavej" id="clavej">
 				<img src="pass.png" style="opacity: 90%;" alt="icon-pass">
